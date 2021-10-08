@@ -1,0 +1,106 @@
+$contact-txt-color:#111111;
+
+.contact_center{
+    height: 314px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_contact{
+    width: 1110px;
+    height: 312px;
+    display: flex;
+    margin-top: 108px;
+}
+
+
+.maintext_contact{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    color: $contact-txt-color;
+    width: 475px;
+    height: 174px;
+
+
+}
+.parag_contact{
+    height:56px;
+    width: 445px;
+    margin-top: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $contact-txt-color;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+.form_wrap{
+    width: 1110px;
+    height: 542px;
+    display: flex;
+    justify-content: right;
+    .form{
+        width: 495px;
+        height: 312px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+}
+
+
+.form_name, .form_email, .form_message{
+    width: 475px;
+    height: 37px;
+    border-bottom: 1px solid black;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: $contact-txt-color;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.btn{
+    width: 135px;
+    height: 50px;
+    background-color: #4A4FF2;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.flex_map{
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+
+.img_map{
+    width: 1110px;
+    height: 570px;
+    background-image: url(/img/Map.png);
+    margin-top: 120px;
+}
+
+
+.footer_contact{
+    margin-top: 110px;
+}
